@@ -9,7 +9,11 @@ body {
 .top-container {
   width: 500px;
   margin: auto;
-  padding: 80px 80px 40px 80px;
+  padding: 80px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
 }
 
 h1 {
@@ -28,9 +32,22 @@ h2 {
   font-size: 2.4em;
 }
 
+@media only screen and (max-width: 550px) {
+  .top-container {
+    width: 90%;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+}
+
 .middle-container {
-  margin: auto;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .tool-container {
@@ -43,8 +60,9 @@ h2 {
   background-color: white;
   text-align: left;
   padding: 30px;
-  margin: 0 0 50px 0;
+  margin: 0 15px 30px 15px;
   position: relative;
+  box-shadow: 0 2px 5px #A3A5AE;
 }
 
 .supervisor-container {
@@ -81,7 +99,8 @@ h2 {
 }
 
 .attribution {
-  font-size: 11px; text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
