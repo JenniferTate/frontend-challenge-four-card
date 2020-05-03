@@ -1,0 +1,89 @@
+body {
+  background-color: #FAFAFA;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #A3A5AE;
+}
+
+.top-container {
+  width: 500px;
+  margin: auto;
+  padding: 80px 80px 40px 80px;
+}
+
+h1 {
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  color: #4C4E61;
+  font-size: 2.4em;
+}
+
+h2 {
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  color: #4C4E61;
+  font-size: 2.4em;
+}
+
+.middle-container {
+  margin: auto;
+  display: inline-block;
+}
+
+.tool-container {
+  width: 290px;
+  height: 190px;
+  border: solid;
+  border-color: inherit;
+  border-width: 5px 0 0 0;
+  border-radius: 5px;
+  background-color: white;
+  text-align: left;
+  padding: 30px;
+  margin: 0 0 50px 0;
+  position: relative;
+}
+
+.supervisor-container {
+  border-color: #45D3D3;
+}
+
+.teambuilder-container {
+  border-color: #EA5353;
+}
+
+.karma-container {
+  border-color: #FCAF4A;
+}
+
+.calculator-container {
+  border-color: #549EF2;
+}
+
+.tool-title {
+  font-weight: 600;
+  color: #4C4E61;
+  padding-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.tool-content {
+  font-weight: 200;
+}
+
+.tool-img {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
